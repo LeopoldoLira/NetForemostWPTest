@@ -66,6 +66,106 @@
 </section>
 
 
+<section class='blog-section'>
+    <div class="blog-section__title">
+        <h2>Latest Articles</h2>
+    </div>
+    <div class="blog-section__grid">
+        <section>
+            <div class='blog-section__grid--picture'>
+                <picture><img src="/wp-content/uploads/2024/06/blog-image.png" alt=""></picture>
+            </div>
+            <article>
+                <span>Analytics</span>
+                <h3>Many Desktop publishing packages and web page</h3>
+                <div class='blog-section__grid--comment'>
+                    <p>Added: 28 June 2024</p>
+                    <div>
+                        <img src='/wp-content/uploads/2024/06/comments-icon.png'/> 
+                        <p>23</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis eros sed risus sollicitudin fringilla dictum in metus. </p>
+                <div class='blog-section__grid--author'>
+                    <img src='/wp-content/uploads/2024/06/avatar.png'/>
+                    <p>Anna Profeska</p>
+                </div>
+            </article>  
+        </section>
+
+        <section>
+            <div class='blog-section__grid--picture'>
+                <picture><img src="/wp-content/uploads/2024/06/blog-image.png" alt=""></picture>
+            </div>
+            <article>
+                <span>Analytics</span>
+                <h3>Many Desktop publishing packages and web page</h3>
+                <div class='blog-section__grid--comment'>
+                    <p>Added: 28 June 2024</p>
+                    <div>
+                        <img src='/wp-content/uploads/2024/06/comments-icon.png'/> 
+                        <p>23</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis eros sed risus sollicitudin fringilla dictum in metus. </p>
+                <div class='blog-section__grid--author'>
+                    <img src='/wp-content/uploads/2024/06/avatar.png'/>
+                    <p>Anna Profeska</p>
+                </div>
+            </article>  
+        </section>
+
+        <section>
+            <div class='blog-section__grid--picture'>
+                <picture><img src="/wp-content/uploads/2024/06/blog-image.png" alt=""></picture>
+            </div>
+            <article>
+                <span>Analytics</span>
+                <h3>Many Desktop publishing packages and web page</h3>
+                <div class='blog-section__grid--comment'>
+                    <p>Added: 28 June 2024</p>
+                    <div>
+                        <img src='/wp-content/uploads/2024/06/comments-icon.png'/> 
+                        <p>23</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis eros sed risus sollicitudin fringilla dictum in metus. </p>
+                <div class='blog-section__grid--author'>
+                    <img src='/wp-content/uploads/2024/06/avatar.png'/>
+                    <p>Anna Profeska</p>
+                </div>
+            </article>  
+        </section>
+
+        <section>
+            <div class='blog-section__grid--picture'>
+                <picture><img src="/wp-content/uploads/2024/06/blog-image.png" alt=""></picture>
+            </div>
+            <article>
+                <span>Analytics</span>
+                <h3>Many Desktop publishing packages and web page</h3>
+                <div class='blog-section__grid--comment'>
+                    <p>Added: 28 June 2024</p>
+                    <div>
+                        <img src='/wp-content/uploads/2024/06/comments-icon.png'/> 
+                        <p>23</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis eros sed risus sollicitudin fringilla dictum in metus. </p>
+                <div class='blog-section__grid--author'>
+                    <img src='/wp-content/uploads/2024/06/avatar.png'/>
+                    <p>Anna Profeska</p>
+                </div>
+            </article>  
+        </section>
+
+
+
+    </div>
+
+</section>
+
+
 
 <!-- about us Section -->
 <section class='about-us-section'>
