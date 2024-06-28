@@ -1,0 +1,17 @@
+
+
+
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+// Import Global styles.
+@import './global';
+
+
+
+// Import Header Styles.
+@import './HeaderStyles/header-styles';
