@@ -117,13 +117,73 @@
 
 
 
+// About US Section Styles
+
+
+.about-us-section{
+    padding: 5rem 14.6875rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    &__image{
+        picture{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    &__text{
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        background-color: var(--background-color-grey);
+        padding: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap:1.75rem;
+        width: 50rem;
+        span{
+            font-family: Mulish;
+            font-size: 22px;
+            font-weight: 400;
+        }
+
+        h2{
+            font-family: Spartan;
+            font-size: 60px;
+            font-weight: 700;
+        }
+
+        p{
+            font-family: Mulish;
+            font-size: 22px;
+            font-weight: 400;
+        }
+
+        a{
+            color: var(--text-color-white);
+            font-family: Spartan;
+            font-weight: 600;
+            font-size: 16px;
+            background-color: var(--accent-color);
+            padding: 8px 28px;
+        }
+    }
+}
+
+
+
 // Newsletter section styles
 
 .newsletter-section{
 
-    padding: 4rem 14.6875rem;
+    margin: 4rem 14.6875rem;
+    background-color: var(--primary-color);
+
     &__container{
-        background-color: var(--primary-color);
+
         display: flex;
         align-items: center;
         justify-content: center;

@@ -66,6 +66,27 @@
 </section>
 
 
+
+<!-- about us Section -->
+<section class='about-us-section'>
+    <div class='about-us-section__image'>
+        <picture>
+            <img src='/wp-content/uploads/2024/06/about-us.png' alt=''/>
+        </picture>
+    </div>
+    <div class='about-us-section__text'>
+        <span>About US</span>
+        <h2>Heading Title</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula libero nec ipsum bibendum rhoncus. In fermentum non orci nec pellentesque. Donec sollicitudin feugiat ante, vel feugiat dolor porta eu. Pellentesque elementum ligula metus, id sagittis ligula sagittis nec.
+        </p>
+        <a>Learn More</a>
+    </div>
+
+</section>
+
+
+
 <!-- Newsletter section -->
 <section class='newsletter-section'>
     <div class='newsletter-section__container'>
