@@ -59,3 +59,58 @@
         }
     }
 }
+
+
+
+
+// Custom Post Types, Articles Section
+
+.articles-section{
+    padding: 5.5rem 14.6875rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap:1.875rem;
+
+
+    &__single-article{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1.875rem;
+        text-align: center;
+        picture{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem 2rem;
+            width: 5rem;
+            height: 5rem;
+            background-color: var(--secondary-color);
+            border-radius: 100%;
+        }
+
+        h2{
+            font-family: Spartan;
+            font-weight: 700;
+            font-size: 30px;
+        }
+
+        p{
+            font-family: Mulish;
+            font-weight: 400;
+            font-size: 18px;
+        }
+
+        a{
+            font-family: Spartan;
+            font-weight: 600;
+            font-size: 16px;
+            background-color: var(--primary-color);
+            color: var(--text-color-white);
+            padding: 0.25rem 1.75rem;
+            text-decoration: none;
+        }
+    }
+}

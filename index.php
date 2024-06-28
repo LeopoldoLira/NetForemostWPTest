@@ -20,8 +20,83 @@
             <img src='<?=$HERO_IMAGE;?>' alt='<?=$HERO_IMAGE_ALT?>'/>
         </picture>
     </div>
+</section>
+
+
+
+<!-- Custom post Types: Articles Section -->
+
+<section class='articles-section'>
+<!-- Creating Wordpress Loop to retrieve Custom Post Type Info with ACF -->
+    <?
+        $LOOP = new WP_Query( array(
+            'post_type' => 'articles',
+            'post_per_page' => -1,
+            'order' => 'ASC',
+        ));
+        
+        if ($LOOP -> have_posts()):
+
+            while ($LOOP -> have_posts()): $LOOP -> the_post();
+
+            $SINGLE_ARTICLE_IMAGE = get_field('single_article_icon');
+            $SINGLE_ARTICLE_HEADING = get_field('single_article_heading');
+            $SINGLE_ARTICLE_DESCRIPTION = get_field('single_article_description');
+
+    ?>
+        <div class='articles-section__single-article'>
+            <picture>
+                <img src='<?=$SINGLE_ARTICLE_IMAGE?>' alt='Article Logo'/>
+            </picture>
+
+            <h2><?=$SINGLE_ARTICLE_HEADING;?></h2>
+            <p><?=$SINGLE_ARTICLE_DESCRIPTION;?></p>
+            <a href='<?=the_permalink();?>'>Read Articles</a>
+        </div>
+
+
+        <?
+        endwhile;
+
+        wp_reset_postdata(); //Reset the global $post Object.
+    
+    endif;
+        ?>    
 
 </section>
+
+
+    <!-- <div class='articles-section__single-article'>
+        <picture>
+            <img src='http://testnetforemost.local/wp-content/uploads/2024/06/expand-icon.png' alt=''/>
+        </picture>
+
+        <h2>Fully Responsive</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adispiscing elit. Maecenas quis eros sed risus solicitidun fringila dictum in metus</p>
+        <a>Read Articles</a>
+    </div>
+
+    <div class='articles-section__single-article'>
+        <picture>
+            <img src='http://testnetforemost.local/wp-content/uploads/2024/06/search-icon-1.png' alt=''/>
+        </picture>
+
+        <h2>SEO Friendly</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adispiscing elit. Maecenas quis eros sed risus solicitidun fringila dictum in metus</p>
+        <a>Read Articles</a>
+    </div>
+
+    <div class='articles-section__single-article'>
+        <picture>
+            <img src='http://testnetforemost.local/wp-content/uploads/2024/06/map-marker-icon.png' alt=''/>
+        </picture>
+
+        <h2>Easily Customizable</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adispiscing elit. Maecenas quis eros sed risus solicitidun fringila dictum in metus</p>
+        <a>Read Articles</a>
+    </div> -->
+
+
 
 
 
