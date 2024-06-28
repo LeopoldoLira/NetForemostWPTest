@@ -66,37 +66,6 @@
 </section>
 
 
-    <!-- <div class='articles-section__single-article'>
-        <picture>
-            <img src='http://testnetforemost.local/wp-content/uploads/2024/06/expand-icon.png' alt=''/>
-        </picture>
-
-        <h2>Fully Responsive</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adispiscing elit. Maecenas quis eros sed risus solicitidun fringila dictum in metus</p>
-        <a>Read Articles</a>
-    </div>
-
-    <div class='articles-section__single-article'>
-        <picture>
-            <img src='http://testnetforemost.local/wp-content/uploads/2024/06/search-icon-1.png' alt=''/>
-        </picture>
-
-        <h2>SEO Friendly</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adispiscing elit. Maecenas quis eros sed risus solicitidun fringila dictum in metus</p>
-        <a>Read Articles</a>
-    </div>
-
-    <div class='articles-section__single-article'>
-        <picture>
-            <img src='http://testnetforemost.local/wp-content/uploads/2024/06/map-marker-icon.png' alt=''/>
-        </picture>
-
-        <h2>Easily Customizable</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adispiscing elit. Maecenas quis eros sed risus solicitidun fringila dictum in metus</p>
-        <a>Read Articles</a>
-    </div> -->
-
-
 
 
 
