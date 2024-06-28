@@ -2,11 +2,28 @@
     --text-color: #000000;
     --background-color: #ffffff;
     --accent-color:#00E6CA;
+    --secondary-color: #F551FF;
+    --text-color-white: #ffffff;
+
 }
 
 @font-face {
     font-family: 'Spartan';
     src: url('/wp-content/themes/netforemost/assets/fonts/LeagueSpartan-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/wp-content/themes/netforemost/assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('/wp-content/themes/netforemost/assets/fonts/Mulish/Mulish-VariableFont_wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
