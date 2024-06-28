@@ -66,6 +66,20 @@
 </section>
 
 
+<!-- Newsletter section -->
+<section class='newsletter-section'>
+    <div class='newsletter-section__container'>
+        <h2>Newsletter</h2>
+        <p>Subscribe my Newsletter for new blog posts, tips & new photos.<br/> Let's stay updated!</p>
+        <form>
+            <div>
+                <input type='text' placeholder='Your e-mail*' />
+                <input type='submit' value='Subscribe'/>
+            </div>
+        </form>
+    </div>
+</section>
+
 
 
 

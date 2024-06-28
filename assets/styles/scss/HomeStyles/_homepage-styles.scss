@@ -114,3 +114,69 @@
         }
     }
 }
+
+
+
+// Newsletter section styles
+
+.newsletter-section{
+
+    padding: 4rem 14.6875rem;
+    &__container{
+        background-color: var(--primary-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2.8125rem 0;
+        color: var(--text-color-white);
+        gap: 0.9375rem;
+        text-align: center;
+        h2{
+            font-family: Spartan;
+            font-weight: 700;
+            font-size: 40px;
+        }
+        p{
+            font-family: Mulish;
+            font-weight: 400;
+            font-size: 22px;
+        }
+
+        form{
+            div{
+                display: flex;
+                gap: 0.9375rem;
+
+                input[type="text"] {
+                    width: 20.4375rem;
+                    border: none; /* Remove the default border */
+                    border-bottom: 2px inset var(--text-color-white); /* Add an inset bottom border */
+                    padding: 10px;
+                    background-color: hsl(242.15,97.01%,60.59%);
+                }
+        
+                input[type="text"]:focus {
+                    outline: none; /* Remove the outline on focus */
+                }
+
+                input[type="text"]::placeholder{
+                    color: var(--text-color-white);
+                    font-family: Roboto;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+
+                input[type="submit"]{
+                    background-color: var(--accent-color);
+                    color: var(--text-color-white);
+                    padding: 8px 44px;
+                    border: none;
+                    font-family: Mulish;
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
