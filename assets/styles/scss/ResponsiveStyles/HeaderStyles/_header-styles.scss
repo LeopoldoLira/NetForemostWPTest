@@ -32,7 +32,6 @@
 
 }
 
-
 @media screen and (max-width:426px){
     .header-container{
         display: none;
@@ -99,4 +98,41 @@
         }
     }
 
+}
+
+@media screen and (max-width:1025px){
+    .header-container{
+        background: grey;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--background-color);
+        padding:2.5rem 6rem;
+        
+    
+    
+        &__navigation{
+            display: flex;
+            align-items: center;
+            gap: 2.5625rem;
+            padding: 1.8125rem 0;
+            ul{
+                display:flex;
+                gap:  2.625rem;
+                li{
+                    list-style-type: none;
+                    a{
+                        text-decoration: none;
+                        color: var(--text-color);
+                        font-weight: 600;
+                        font-size: 17px;
+                        font-family: 'Spartan';
+                    }
+                    a:hover{
+                        text-decoration: underline var(--accent-color);
+                    }
+                }
+            }
+        }
+    }
 }

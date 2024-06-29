@@ -173,3 +173,21 @@
         }
     }
 }
+
+
+@media screen and (max-width:1025px){
+    .footer-section{
+        margin: 1.875rem 6rem;
+
+        &__socials{
+            p{
+                width:50%
+            }
+        }
+    }
+    
+    
+    .copyright-section{
+        padding: 1.875rem 6rem;
+    }
+}
