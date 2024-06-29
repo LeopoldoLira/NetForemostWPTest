@@ -66,3 +66,37 @@
     }
 
 }
+
+@media screen and (max-width:769px){
+    .header-container{
+        display: none;
+    }
+
+    .header-responsive{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+
+        &__logo{
+            picture{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+
+        &__menu{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            picture{
+                width: 10%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}
