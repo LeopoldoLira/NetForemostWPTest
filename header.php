@@ -3,10 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WordPress Developer Assessment | NetForemost</title>
     <? wp_head();?>
 </head>
 <body <? body_class();?>>
+
+
+<header class='header-responsive'>
+    <div class='header-responsive__logo'>
+        <picture>
+            <? $LOGO = get_field('page_logo','option')?>
+            <img src='<?=$LOGO;?>' />
+        </picture>
+    </div>
+    <div class='header-responsive__menu'>
+        <picture>
+            <? $MENU_ICON = get_field('menu_icon','option')?>
+            <img src='<?=$MENU_ICON;?>' />
+        </picture>
+    </div>
+</header>
     
 <header class='header-container'>
     <div class='header-container__logo'>

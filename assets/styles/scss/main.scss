@@ -22,3 +22,14 @@
 
 // Import HomePage Styles
 @import './HomeStyles/homepage-styles';
+
+
+// Import Responsive Styles for Footer & Header
+
+@import './ResponsiveStyles/FooterStyles/footer-styles';
+@import './ResponsiveStyles/HeaderStyles/header-styles';
+
+// Import Responsive Styles 375px
+
+@import './ResponsiveStyles/HomeStyles/responsive-375px-styles';
+
