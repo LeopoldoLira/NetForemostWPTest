@@ -3,7 +3,7 @@
     // Hero Section
     .hero-section{
         flex-direction: column-reverse;
-        padding: 2rem 4rem;
+        padding: 2rem 4rem !important;
 
         &__text{
             h1{
@@ -33,7 +33,7 @@
 // Articles Section
 
     .articles-section{
-        padding: 2rem 2rem;
+        padding: 2rem 4rem;
         flex-direction: column;
     }
 
@@ -43,7 +43,7 @@
     // Blog Section Styles
 
 .blog-section{
-    padding: 0 2rem;
+    padding: 0 4rem;
     &__title{
         padding: 2rem;
         text-align: center;
@@ -76,7 +76,7 @@
             div{
                 picture{
                     img{
-                        width: 18.5rem;
+                        width: 18.5rem !important;
                     }
                 }
                 
@@ -149,9 +149,12 @@
         form{
             div{
                 display: flex;
+                justify-content: center;
                 flex-direction: column;
                 gap: 0.9375rem;
-
+                input[type='text']{
+                    width: 15rem;
+                }
             }
         }
     }

@@ -138,7 +138,6 @@
         section{
             display: flex;
             gap: 40px;
-
             .blog-section__grid--picture{
                 position: relative;
                 &::before{
@@ -156,9 +155,8 @@
             div{
                 picture{
                     position: relative;
-
                     img{
-                        width: 14.6875rem;
+                        width: 15vw;
                     }
                 }
                 
