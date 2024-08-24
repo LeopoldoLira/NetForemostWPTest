@@ -1,4 +1,4 @@
-@media screen and (max-width:376px){
+@media (min-width:1px) and (max-width:375px){
     .footer-section{
         margin: 2rem;
         flex-direction: column;
@@ -57,7 +57,7 @@
 }
 
 
-@media screen and (max-width:426px){
+@media (min-width:376px) and (max-width:425px){
     .footer-section{
         margin: 2rem;
         flex-direction: column;
@@ -116,7 +116,7 @@
 }
 
 
-@media screen and (max-width:769px){
+@media (min-width:426px) and (max-width:768px){
     .footer-section{
         margin: 2rem;
         flex-direction: column;
@@ -175,7 +175,7 @@
 }
 
 
-@media screen and (max-width:1025px){
+@media (min-width:769px) and (max-width:1024px){
     .footer-section{
         margin: 3rem 4rem;
         flex-direction: column;

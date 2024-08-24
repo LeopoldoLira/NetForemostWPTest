@@ -1,4 +1,11 @@
-@media screen and (max-width:376px){
+.header-responsive{
+    position: sticky;
+    top:0;
+    z-index: 99;
+    background-color: var(--text-color-white);
+}
+
+@media (min-width:1px) and (max-width:375px){
     .header-container{
         display: none;
     }
@@ -32,7 +39,7 @@
 
 }
 
-@media screen and (max-width:426px){
+@media (min-width:376px) and (max-width:425px){
     .header-container{
         display: none;
     }
@@ -66,7 +73,7 @@
 
 }
 
-@media screen and (max-width:769px){
+@media (min-width:426px) and (max-width:768px){
     .header-container{
         display: none;
     }
@@ -100,7 +107,7 @@
 
 }
 
-@media screen and (max-width:1025px){
+@media (min-width:769px) and (max-width:1024px){
     .header-container{
         display: none;
     }

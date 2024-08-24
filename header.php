@@ -9,14 +9,14 @@
 <body <? body_class();?>>
 
 
-<header class='header-responsive'>
+<header class='header-responsive shadow-target'>
     <div class='header-responsive__logo'>
         <picture>
             <? $LOGO = get_field('page_logo','option')?>
             <img src='<?=$LOGO;?>' />
         </picture>
     </div>
-    <div class='header-responsive__menu'>
+    <div class='header-responsive__menu' id='header-responsive__menu--icon'>
         <picture>
             <? $MENU_ICON = get_field('menu_icon','option')?>
             <img src='<?=$MENU_ICON;?>' />
@@ -24,7 +24,7 @@
     </div>
 </header>
     
-<header class='header-container' id='shadow-target'>
+<header class='header-container shadow-target' >
     <div class='header-container__logo'>
         <picture>
             <? $LOGO = get_field('page_logo','option')?>
