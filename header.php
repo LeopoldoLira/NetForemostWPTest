@@ -18,10 +18,18 @@
     </div>
     <div class='header-responsive__menu' id='header-responsive__menu--icon'>
         <picture>
-            <? $MENU_ICON = get_field('menu_icon','option')?>
-            <img src='<?=$MENU_ICON;?>' />
+            <img id='menu-icon-img' src='/wp-content/uploads/2024/06/menu-svgrepo-com.png' />
         </picture>
+        <div class='header-responsive__menu--options' id='side-menu'>
+            <? $ARGS = array('menu' => 'header_navigation',
+                            'container' => false,
+                            'depth' => 1);
+            wp_nav_menu($ARGS);
+                            ?>
+        </div>
     </div>
+
+
 </header>
     
 <header class='header-container shadow-target' >
