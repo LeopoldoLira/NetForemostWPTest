@@ -24,7 +24,7 @@
     </div>
 </header>
     
-<header class='header-container'>
+<header class='header-container' id='shadow-target'>
     <div class='header-container__logo'>
         <picture>
             <? $LOGO = get_field('page_logo','option')?>

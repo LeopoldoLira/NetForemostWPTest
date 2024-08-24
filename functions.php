@@ -6,7 +6,16 @@ function theme_styles(){
     wp_enqueue_style('main_stylesheet');
 }
 
+
 add_action('wp_enqueue_scripts', 'theme_styles');
+
+
+function theme_js_scripts(){
+    wp_register_script('main_script', get_stylesheet_directory_uri(). '/assets/js/main.js', array(), '1.0.0', true);
+    wp_enqueue_script('main_script');
+}
+
+add_action('wp_enqueue_scripts' , 'theme_js_scripts');
 
 add_theme_support('menus');
 

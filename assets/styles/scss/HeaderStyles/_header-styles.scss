@@ -3,14 +3,17 @@
 }
 
 .header-container{
+    position: sticky;
+    top: 0;
+    z-index: 99;
     background: grey;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--background-color);
     padding:2.5rem 14.6875rem;
-    
 
+    transition: box-shadow 300ms ease-in-out;
 
     &__navigation{
         display: flex;
